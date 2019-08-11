@@ -8,8 +8,11 @@ async function getAllUsers(pagination){
 		UserRepository.getAllUsers()
 }
 
-async function getUser(_id){
-	const user = await UserRepository.get(_id);
+/**
+ * @param {*} data can be either a user name or its _id
+ */
+async function getUser(data){
+	const user = await UserRepository.get(data);
 
 	if(!user)
 		throw new DataNotFound('USER_NOT_FOUND', 'The user couldnt be found');
