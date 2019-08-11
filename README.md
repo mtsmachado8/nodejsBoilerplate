@@ -1,2 +1,2 @@
 # nodejsBoilerplate
-Simple boilerplate for build restful api's with Nodejs, express, dotenv and all libraries needed
+Simple boilerplate for building restful api's with Nodejs, express, dotenv and all libraries needed
