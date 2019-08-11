@@ -6,7 +6,7 @@
   "repository": "git@github.com:mtsmachado8/nodejsBoilerplate.git",
   "author": "mtsmachado8 <mtsmachado8@gmail.com>",
   "scripts": {
-    "start": "node -r esm ./api/index.js",
+    "start": "export NODE_ENV=development && node -r esm ./api/index.js",
     "dev": "export NODE_ENV=development && nodemon -r esm ./api/index.js"
   },
   "dependencies": {
