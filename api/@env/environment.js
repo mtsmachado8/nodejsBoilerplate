@@ -1,5 +1,6 @@
 import dotenv from 'dotenv'
 import path   from 'path'
+import EnvNotDefined from '../@infra/error/code-errors/env-not-defined';
 
 const environment = process.env.NODE_ENV;
 const environmentFile = environment === 'production' ? '.env' : `.env.${environment}`;
@@ -14,6 +15,6 @@ export function configEnvironment(){
 export function testVariables(variables){
 	variables.forEach(variable => {
 		if(!process.env[variable])
-			throw new Error(`FATAL: ${variable} not defined on file ${environmentFile}`);
+			throw new EnvNotDefined(`Variable ${variable} not defined on file ${environmentFile}`);
 	});
 }
