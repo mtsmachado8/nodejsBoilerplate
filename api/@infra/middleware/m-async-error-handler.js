@@ -3,7 +3,7 @@ import ApiError         from '../error/parent-errors/api-error';
 import InternalError    from '../error/internal-error-500';
 import Envelope 		from '../../../@infra/envelope/response-envelope';
 
-export default function(err, res){
+export default function(err, req, res, next){
 	// Returning known errors with the respective status and messages
 	if(err instanceof ApiError){
 		log.silly(err.stack);
