@@ -8,7 +8,7 @@ import startDb                              from './@infra/startup/start-db'
 import configPagination                     from './@infra/startup/config-pagination'
 
 // Api Routes
-import routes        from './router';
+import routes from './router';
 
 
 const router = express.Router();

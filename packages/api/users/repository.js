@@ -1,5 +1,5 @@
-import { model, Schema }        from 'mongoose'
-import CrudInterface            from '../@util/crud-interface';
+import { model, Schema } from 'mongoose'
+import CrudInterface     from '../@util/crud-interface';
 
 
 class UserRepository extends CrudInterface{

@@ -1,5 +1,5 @@
-import dotenv from 'dotenv'
-import path   from 'path'
+import dotenv        from 'dotenv'
+import path          from 'path'
 import EnvNotDefined from '../@infra/error/code-errors/env-not-defined';
 
 const environment = process.env.NODE_ENV;

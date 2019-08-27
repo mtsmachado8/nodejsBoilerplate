@@ -1,0 +1,9 @@
+{
+  "name": "@mtsmachado8/infra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo testing @mtsmachado8/infra with version $npm_package_version"
+  }
+}

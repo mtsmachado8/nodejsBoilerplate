@@ -1,7 +1,7 @@
 import error_handler from './@infra/middleware/m-async-error-handler'
 import log           from 'winston'
 import express       from 'express'
-import * as api from './api';
+import * as api      from './api';
 
 const app = express();
 const port = process.env.PORT || 1234;

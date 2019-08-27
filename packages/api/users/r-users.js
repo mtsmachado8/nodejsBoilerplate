@@ -1,5 +1,5 @@
-import { validate, validateUpdatedUser } 									  from './user-validator';
-import validateReq                             								  from '../@infra/middleware/m-validate-req';
+import { validate, validateUpdatedUser }                                      from './user-validator';
+import validateReq                                                            from '../@infra/middleware/m-validate-req';
 import validateId                                                             from '../@infra/middleware/m-validate-id'
 import express                                                                from 'express';
 import { sendCreated, sendData, sendDeleted, sendPaginatedData, sendUpdated } from '../@infra/middleware/m-send-data';
