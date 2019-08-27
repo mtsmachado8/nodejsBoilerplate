@@ -1,10 +1,16 @@
 {
   "name": "@mtsmachado8/infra",
   "version": "1.1.6",
+  "description": "Simple boilerplate for build restful api's with Nodejs, express, dotenv and all libraries needed",
   "main": "index.js",
+  "repository": "git@github.com:mtsmachado8/nodejsBoilerplate.git",
+  "author": "mtsmachado8 <mtsmachado8@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "scripts": {
     "test": "echo testing @mtsmachado8/infra with version $npm_package_version"
   },
-  "gitHead": "d126ba746707af6d47920409a15fcdaf278f431c"
+  "gitHead": "e26d44cce457790691a93e414b3fbbff2e459069"
 }

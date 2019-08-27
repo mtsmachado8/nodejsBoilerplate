@@ -1,9 +1,6 @@
 {
   "name": "nodejs-boilerplate",
   "private": true,
-  "publishConfig": {
-    "access": "public"
-  },
   "workspaces": [
     "packages/*"
   ],
