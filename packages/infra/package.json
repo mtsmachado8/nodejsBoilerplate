@@ -6,5 +6,5 @@
   "scripts": {
     "test": "echo testing @mtsmachado8/infra with version $npm_package_version"
   },
-  "gitHead": "33be31f85a5a65f3d3e7f8ba51b3c8ee179ec552"
+  "gitHead": "d126ba746707af6d47920409a15fcdaf278f431c"
 }
