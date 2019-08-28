@@ -6,8 +6,8 @@
   ],
   "scripts": {
     "test": "lerna run test --parallel",
-    "new-version": "lerna version --no-push --conventional-commits",
-    "publish": " && lerna publish --from-git",
+    "new-version": "lerna version --no-push --conventional-commits --yes",
+    "publish": "lerna publish from-git",
     "diff": "lerna diff"
   },
   "devDependencies": {
