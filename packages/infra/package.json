@@ -1,5 +1,5 @@
 {
-  "name": "@mtsmachado8/infraa",
+  "name": "@mtsmachado8/infra",
   "version": "1.6.0",
   "description": "Simple boilerplate for build restful api's with Nodejs, express, dotenv and all libraries needed",
   "main": "index.js",

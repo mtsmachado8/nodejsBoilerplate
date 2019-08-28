@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 import log    	 from 'winston'
 
 let _connection_pool = null;
-	
+
 async function start(){
     if(_started())
         return _connection_pool;
