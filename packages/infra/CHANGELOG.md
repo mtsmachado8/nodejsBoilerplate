@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/mtsmachado8/nodejsBoilerplate/compare/v1.9.0...v1.10.0) (2019-08-28)
+
+
+### Features
+
+* **infra:** feat new ([09054ff](https://github.com/mtsmachado8/nodejsBoilerplate/commit/09054ff))
+
+
+
+
+
 # [1.9.0](https://github.com/mtsmachado8/nodejsBoilerplate/compare/v1.8.0...v1.9.0) (2019-08-28)
 
 
