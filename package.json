@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "test": "lerna run test --parallel",
-    "new-version": "lerna version --no-push --conventional-commits --yes",
+    "new-version": "lerna version --conventional-commits --yes",
     "publish": "lerna publish from-git",
     "diff": "lerna diff"
   },
