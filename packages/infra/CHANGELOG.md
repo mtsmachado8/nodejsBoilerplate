@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/mtsmachado8/nodejsBoilerplate/compare/v1.8.0...v1.9.0) (2019-08-28)
+
+
+### Features
+
+* **infra:** lala ([86ccfc9](https://github.com/mtsmachado8/nodejsBoilerplate/commit/86ccfc9))
+
+
+
+
+
 # [1.8.0](https://github.com/mtsmachado8/nodejsBoilerplate/compare/v1.7.1...v1.8.0) (2019-08-28)
 
 
